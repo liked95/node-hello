@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - webapp-sonvu
 on:
   push:
     branches:
-      - master
+      - staging
   workflow_dispatch:
 
 jobs:
